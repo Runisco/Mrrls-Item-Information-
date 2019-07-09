@@ -1,6 +1,6 @@
 local match = string.match
 local strsplit = strsplit
-local VERSION = "1.0.2"
+local VERSION = "1.0.4"
 
 local MrrlFirstLogin = CreateFrame("Frame", "MrrlFirstLoginFrame")
 MrrlFirstLogin:RegisterEvent("PLAYER_LOGIN")
@@ -35,82 +35,82 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("1x Scrying Stone")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "168091" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("1x Barnacled Lockbox")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "168092" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("Mardivas reagent")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "168093" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("3x Prismatic Manapearls")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "168095" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("Azerite power")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "168096" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Contains:")
 		tooltip:AddLine("different Nazjatar items.")
 		tooltip:AddLine("Might not open if you already have the unique item in your bags.")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "168097" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("1x Benthic Token")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "170158" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("7x Prismatic Manapearl")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "170101" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("1x Benthic Token")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "170162" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Contains:")
 		tooltip:AddLine("different Nazjatar items.")
 		tooltip:AddLine("Might not open if you already have the unique item in your bags.")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "170157" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("Mardivas reagent")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "170152" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("Abyssal Conch")
 		tooltip:AddLine("Gives 150 rep with Nazjatar faction")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 	if itemId and itemId == "170159" then
 		tooltip:AddLine(" ") --blank line
 		tooltip:AddLine("Becomes:")
 		tooltip:AddLine("3x Prismatic Manapearl")
-		tooltip:AddLine("")
+		tooltip:AddLine(" ")
 	end
 end
 
