@@ -3,7 +3,7 @@
 ## Author: Riasta-Draenor EU
 ## Email: vanirosmond@gmail.com
 ## DefaultState: enabled
-## Version: 1.0.4
+## Version: 1.1.0
 ## Notes: Displays what Mrrl is actually sells
 
 mrrl.lua
