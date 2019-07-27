@@ -1,6 +1,6 @@
 local match = string.match
 local strsplit = strsplit
-local VERSION = "1.1.0"
+local VERSION = "1.2.0"
 
 local MrrlFirstLogin = CreateFrame("Frame", "MrrlFirstLoginFrame")
 MrrlFirstLogin:RegisterEvent("PLAYER_LOGIN")
@@ -126,6 +126,19 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		if itemId and itemId == "170153" then
 			tooltip:AddLine(" ") --blank line
 			tooltip:AddLine("Gives 150 experience to each bodyguard")
+			tooltip:AddLine(" ")
+		end
+		if itemId and itemId == "169202" then
+			tooltip:AddLine(" ")
+			tooltip:AddLine("Attention!")
+			tooltip:AddLine("This is the mount")
+			tooltip:AddLine(" Buy if you can, it will go away for a while")
+			tooltip:AddLine(" ")
+		end
+		if itemId and itemId == "169885" then
+			tooltip:AddLine(" ")
+			tooltip:AddLine("This is not consume on use!")
+			tooltip:AddLine("The buff is permanent.")
 			tooltip:AddLine(" ")
 		end
 	else
