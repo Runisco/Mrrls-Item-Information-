@@ -1,6 +1,6 @@
 local match = string.match
 local strsplit = strsplit
-local VERSION = "1.2.1"
+local VERSION = "1.2.2"
 
 local MrrlFirstLogin = CreateFrame("Frame", "MrrlFirstLoginFrame")
 MrrlFirstLogin:RegisterEvent("PLAYER_LOGIN")
