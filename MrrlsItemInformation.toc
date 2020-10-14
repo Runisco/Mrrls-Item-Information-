@@ -1,9 +1,9 @@
-## Interface: 80300
+## Interface: 90001
 ## Title: Mrrls Item Information
 ## Author: Riasta-Draenor EU
 ## Email: vanirosmond@gmail.com
 ## DefaultState: enabled
-## Version: 1.2.2
+## Version: 1.3.0
 ## Notes: Displays what Mrrl is actually sells
 
 mrrl.lua

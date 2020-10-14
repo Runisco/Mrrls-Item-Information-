@@ -44,36 +44,42 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 
 		if itemId and itemId == "168094" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("1x Scrying Stone")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "168091" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("1x Barnacled Lockbox")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "168092" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("Mardivas reagent")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "168093" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("3x Prismatic Manapearls")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "168095" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("Azerite power")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "168096" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Contains:")
 			tooltip:AddLine("different Nazjatar items.")
 			tooltip:AddLine("Might not open if you already have the unique item in your bags.")
@@ -81,24 +87,28 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		end
 		if itemId and itemId == "168097" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("1x Benthic Token")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "170158" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("7x Prismatic Manapearl")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "170101" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("1x Benthic Token")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "170162" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Contains:")
 			tooltip:AddLine("different Nazjatar items.")
 			tooltip:AddLine("Might not open if you already have the unique item in your bags.")
@@ -106,12 +116,14 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		end
 		if itemId and itemId == "170157" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("Mardivas reagent")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "170152" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("Abyssal Conch")
 			tooltip:AddLine("Gives 150 rep with Nazjatar faction")
@@ -119,17 +131,20 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		end
 		if itemId and itemId == "170159" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Becomes:")
 			tooltip:AddLine("3x Prismatic Manapearl")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "170153" then
 			tooltip:AddLine(" ") --blank line
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Gives 150 experience to each bodyguard")
 			tooltip:AddLine(" ")
 		end
 		if itemId and itemId == "169202" then
 			tooltip:AddLine(" ")
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("Attention!")
 			tooltip:AddLine("This is the mount")
 			tooltip:AddLine(" Buy if you can, it will go away for a while")
@@ -137,6 +152,7 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		end
 		if itemId and itemId == "169885" then
 			tooltip:AddLine(" ")
+			tooltip:AddLine("-- Mrrls Item Information --")
 			tooltip:AddLine("This is not consume on use!")
 			tooltip:AddLine("The buff is permanent.")
 			tooltip:AddLine(" ")
